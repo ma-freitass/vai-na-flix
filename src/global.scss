@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+@media (max-width:800px) {
+    *{
+        font-size: 20px;
+    }
+    header nav ul{
+
+        align-items: center;
+        flex-direction: column;
+    }
+    header nav ul li {
+        margin-bottom: 10px;
+      }
+}
